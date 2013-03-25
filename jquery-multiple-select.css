@@ -1,5 +1,7 @@
 .selector-available, .selector-chosen {
-	border: 1px solid #555;
+	border-color: #555;
+	border-style: solid;
+	border-width: 1px;
 	float: left;
 	height: 200px;
 	width: 250px;
@@ -12,6 +14,10 @@
 	border-bottom: 1px solid #555;
 }
 
+.selector-items {
+	height: 150px;
+}
+
 .selector-items .item {
 	background-color: #585858;
 	color: #ffffff;
@@ -20,7 +26,7 @@
 	margin: 2px;
 }
 
-.selector-items .item.selected {
+.selected {
 	border-left: 5px solid #FF8000;
 }
 
